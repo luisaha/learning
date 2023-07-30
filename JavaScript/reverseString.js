@@ -19,6 +19,12 @@ function shortReverse(str) {
 
 console.log(shortReverse('nochmalhello'));
 
+console.log('-----------------');
+
+const solution = str => str.split('').reverse().join('');
+
+console.log(solution);
+
 
 /*
 Aufwendigere Lösung (Siehe unten) mit vorgefertigten Funktionen aber wenn man diese lange Lösung kurz fast, ist sie noch kompakter
